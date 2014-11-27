@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/d-torrance/unity-greeter-badges
 
 Package: unity-greeter-badges
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, unity-greeter
+Depends: ${misc:Depends}, unity-greeter
 Description: Additional badges for Unity Greeter
  This package adds additional badges, i.e., the icons that appear next to each
  desktop environment, in Unity Greeter, Ubuntu's default display manager.  It
