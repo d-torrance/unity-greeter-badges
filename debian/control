@@ -1,5 +1,5 @@
 Source: unity-greeter-badges
-Section: unknown
+Section: misc
 Priority: optional
 Maintainer: Doug Torrance <dtorrance@monmouthcollege.edu>
 Build-Depends: debhelper (>= 9)
