@@ -11,5 +11,9 @@ Vcs-Browser: https://github.com/d-torrance/unity-greeter-badges
 Package: unity-greeter-badges
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Additional badges for Unity Greeter
+ This package adds additional badges, i.e., the icons that appear next to each
+ desktop environment, in Unity Greeter, Ubuntu's default display manager.  It
+ adds support for a wide variety of desktop environments not supported by the
+ default Unity Greeter installation, e.g., MATE, Cinnamon, Window Maker, and
+ more.
