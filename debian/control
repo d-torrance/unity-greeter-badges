@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/d-torrance/unity-greeter-badges.git
 Vcs-Browser: https://github.com/d-torrance/unity-greeter-badges
 
 Package: unity-greeter-badges
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
