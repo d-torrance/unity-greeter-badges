@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Doug Torrance <dtorrance@monmouthcollege.edu>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://gnome-look.org/content/show.php/?content=158764
 Vcs-Git: https://github.com/d-torrance/unity-greeter-badges.git
 Vcs-Browser: https://github.com/d-torrance/unity-greeter-badges
