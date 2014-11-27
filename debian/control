@@ -5,8 +5,8 @@ Maintainer: Doug Torrance <dtorrance@monmouthcollege.edu>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Homepage: http://gnome-look.org/content/show.php/?content=158764
-#Vcs-Git: git://anonscm.debian.org/collab-maint/unity-greeter-badges.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/unity-greeter-badges.git;a=summary
+Vcs-Git: https://github.com/d-torrance/unity-greeter-badges.git
+Vcs-Browser: https://github.com/d-torrance/unity-greeter-badges
 
 Package: unity-greeter-badges
 Architecture: any
