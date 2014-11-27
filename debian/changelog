@@ -1,5 +1,5 @@
-unity-greeter-badges (0.1-1) unstable; urgency=low
+unity-greeter-badges (0.1-0ubuntu1) vivid; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (LP: #1396851).
 
- -- Doug Torrance <dtorrance@monmouthcollege.edu>  Wed, 26 Nov 2014 20:50:48 -0600
+ -- Doug Torrance <dtorrance@monmouthcollege.edu>  Thu, 27 Nov 2014 01:01:37 -0600
