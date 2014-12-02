@@ -10,6 +10,14 @@ Files: debian/*
 Copyright: 2014 Doug Torrance <dtorrance@monmouthcollege.edu>
 License: GPL-2+
 
+Files: debian/custom_mwm_badge.png
+Copyright: 2012 Canonical Ltd
+           2013 Graham Inggs <graham@nerve.org.za>
+License: GPL-3
+Comment: Created in GIMP using /usr/share/unity-greeter/unknown_badge.png,
+ from Ubuntu's unity-greeter package, as a template. As per:
+ https://lists.ubuntu.com/archives/ubuntu-devel/2012-February/034800.html
+
 License: CC-BY-3.0
  Creative Commons Attribution 3.0 Unported
  .
@@ -363,3 +371,16 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3’.

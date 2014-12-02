@@ -49,3 +49,4 @@ custom_XBMC_badge.png usr/share/unity-greeter
 custom_xmonad_badge.png usr/share/unity-greeter
 # custom_xubuntu_badge.png provided by xubuntu-artwork
 custom_xubuntu_badge.png => /usr/share/unity-greeter/custom_xfce_badge.png
+debian/custom_mwm_badge.png usr/share/unity-greeter
