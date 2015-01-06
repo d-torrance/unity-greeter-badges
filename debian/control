@@ -1,7 +1,8 @@
 Source: unity-greeter-badges
 Section: misc
 Priority: optional
-Maintainer: Doug Torrance <dtorrance@monmouthcollege.edu>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@listsoubuntu.com>
+XSBC-Original-Maintainer: Doug Torrance <dtorrance@monmouthcollege.edu>
 Build-Depends: debhelper (>= 9), dh-exec
 Standards-Version: 3.9.6
 Homepage: http://gnome-look.org/content/show.php/?content=158764
@@ -10,9 +11,10 @@ Vcs-Browser: https://github.com/d-torrance/unity-greeter-badges
 
 Package: unity-greeter-badges
 Architecture: all
-Depends: ${misc:Depends}, unity-greeter
-Conflicts: mwm (<= 2.3.4-7)
-Replaces: mwm (<= 2.3.4-7)
+Depends: ${misc:Depends}
+Enhances: unity-greeter
+Breaks: mwm (<< 2.3.4-7~)
+Replaces: mwm (<< 2.3.4-7~)
 Description: Additional badges for Unity Greeter
  This package adds additional badges, i.e., the icons that appear next to each
  desktop environment, in Unity Greeter, Ubuntu's default display manager.  It
