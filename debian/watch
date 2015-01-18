@@ -1,0 +1,2 @@
+version=3
+http://users.wpi.edu/~kddoan/greeter/greeter-badges_(\d[\d.]*)\.(?:zip|tgz|tbz2|txz|tar\.(?:gz|bz2|xz))
