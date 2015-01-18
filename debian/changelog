@@ -1,13 +1,18 @@
-unity-greeter-badges (0.3-0ubuntu1) UNRELEASED; urgency=medium
+unity-greeter-badges (0.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
+  * debian/control
+    - Add wmaker-common (<< 0.95.6-1~) to Breaks and Replaces.
+    - Fix typo in Maintainer email address.
   * debian/install
     - Install Window Maker badge (LP: #1402004).
     - Install new badges from new upstream release.
-  * debian/control
-    - Add wmaker-common (<< 0.95.6-1~) to Breaks and Replaces.
+  * debian/rules
+    - Add get-orig-source target.
+  * debian/watch
+    - New file.
 
- -- Doug Torrance <dtorrance@monmouthcollege.edu>  Sat, 17 Jan 2015 20:30:12 -0600
+ -- Doug Torrance <dtorrance@monmouthcollege.edu>  Sun, 18 Jan 2015 09:09:42 -0600
 
 unity-greeter-badges (0.1-0ubuntu1) vivid; urgency=medium
 
