@@ -52,7 +52,7 @@ custom_trinity_badge.png usr/share/unity-greeter
 custom_twm_badge.png usr/share/unity-greeter
 custom_ubuntustudio_badge.png usr/share/unity-greeter
 custom_usr_badge.png usr/share/unity-greeter
-custom_wmaker-common_badge.png usr/share/unity-greeter
+# custom_wmaker-common_badge.png provided by wmaker-common
 custom_wmii_badge.png usr/share/unity-greeter
 custom_XBMC_badge.png usr/share/unity-greeter
 custom_xmonad_badge.png usr/share/unity-greeter
