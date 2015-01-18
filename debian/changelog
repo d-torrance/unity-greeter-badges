@@ -1,11 +1,13 @@
-unity-greeter-badges (0.1-0ubuntu2) UNRELEASED; urgency=medium
+unity-greeter-badges (0.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  * New upstream release.
   * debian/install
-    - Install custom_wmaker-common_badge.png (LP: #1402004).
+    - Install Window Maker badge (LP: #1402004).
+    - Install new badges from new upstream release.
   * debian/control
     - Add wmaker-common (<< 0.95.6-1~) to Breaks and Replaces.
 
- -- Doug Torrance <dtorrance@monmouthcollege.edu>  Fri, 16 Jan 2015 07:24:51 -0600
+ -- Doug Torrance <dtorrance@monmouthcollege.edu>  Sat, 17 Jan 2015 20:30:12 -0600
 
 unity-greeter-badges (0.1-0ubuntu1) vivid; urgency=medium
 
