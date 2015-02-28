@@ -1,7 +1,34 @@
 #!/usr/bin/make -f
 
+DATADIR=$(CURDIR)/debian/unity-greeter-badges/usr/share/unity-greeter
+
+# Badges found in other packages
+BADGESTOREMOVE = cairo-dock #cairo-dock-data
+BADGESTOREMOVE += LXDE Lubuntu #lubuntu-artwork
+BADGESTOREMOVE += wmaker-common #wmaker-common
+BADGESTOREMOVE += xubuntu #xubuntu-artwork
+
+# But if we remove these, we break some symbolic links
+BROKENLINKS = cairo-dock-fallback cairo-dock-unity #cairo-dock
+BROKENLINKS += Lubuntu-Netbook lubuntu-nexus7 lxgames QLubuntu #LXDE
+BROKENLINKS += xfce #xubuntu
+
 %:
 	dh $@
+
+override_dh_install:
+	dh_install
+
+# Remove badges provided in other packages
+	for BADGE in $(BADGESTOREMOVE); do \
+		rm $(DATADIR)/custom_$$BADGE\_badge.png; \
+	done
+
+# Fix broken symlinks
+	for BADGE in $(BROKENLINKS); do \
+		rm $(DATADIR)/custom_$$BADGE\_badge.png; \
+		cp -L $(CURDIR)/custom_$$BADGE\_badge.png $(DATADIR); \
+	done
 
 get-orig-source:
 	uscan --verbose --force-download --rename
