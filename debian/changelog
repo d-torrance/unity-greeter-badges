@@ -1,13 +1,19 @@
-unity-greeter-badges (0.4-0ubuntu1) UNRELEASED; urgency=medium
+unity-greeter-badges (0.4-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
   * debian/install
     - Simplify file to use wildcard.  We will handle the special cases
       in debian/rules.
+    - Remove executable bit; not needed since we no longer use dh-exec.
   * debian/control
     - Remove dh-exec from Build-Depends; no longer needed.
+  * debian/rules
+    - Add override_dh_install target to remove badges found in other packages
+      and fix resulting broken symlinks.  This function was previously
+      performed by dh-exec using debian/install, but this was harder to
+      maintain.
 
- -- Doug Torrance <dtorrance@monmouthcollege.edu>  Fri, 27 Feb 2015 18:41:00 -0600
+ -- Doug Torrance <dtorrance@monmouthcollege.edu>  Sat, 28 Feb 2015 07:30:52 -0600
 
 unity-greeter-badges (0.3-0ubuntu1) vivid; urgency=medium
 
