@@ -1,3 +1,13 @@
+unity-greeter-badges (0.4-0ubuntu2) wily; urgency=medium
+
+  * debian/control
+    - Add Breaks/Replaces for wmaker-common (<< 0.95.6-1~).
+  * debian/rules
+    - Keep Window Maker badge; removed from wmaker-common package in 0.95.6-1
+      (LP: #1402004).
+
+ -- Doug Torrance <dtorrance@monmouthcollege.edu>  Wed, 06 May 2015 21:54:27 -0500
+
 unity-greeter-badges (0.4-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
