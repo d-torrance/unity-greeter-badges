@@ -5,7 +5,6 @@ DATADIR=$(CURDIR)/debian/unity-greeter-badges/usr/share/unity-greeter
 # Badges found in other packages
 BADGESTOREMOVE = cairo-dock #cairo-dock-data
 BADGESTOREMOVE += LXDE Lubuntu #lubuntu-artwork
-BADGESTOREMOVE += wmaker-common #wmaker-common
 BADGESTOREMOVE += xubuntu #xubuntu-artwork
 
 # But if we remove these, we break some symbolic links
