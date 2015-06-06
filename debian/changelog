@@ -1,3 +1,11 @@
+unity-greeter-badges (0.4-0ubuntu3) wily; urgency=medium
+
+  * debian/links
+    - New file; add symlink to custom_sugar_badge.png; requested by
+      Sugar Labs developer Martin Abente Lahaye <tch@sugarlabs.org>.
+
+ -- Doug Torrance <dtorrance@monmouthcollege.edu>  Fri, 05 Jun 2015 21:05:42 -0500
+
 unity-greeter-badges (0.4-0ubuntu2) wily; urgency=medium
 
   * debian/control
