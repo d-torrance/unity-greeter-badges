@@ -9,6 +9,8 @@ unity-greeter-badges (0.4-0ubuntu4) xenial; urgency=medium
     - Update my email address and copyright years.
   * debian/custom_budgie-desktop_badge.png
     - New file; Budgie Desktop badge (LP: #1562182).
+  * debian/source/include-binaries
+    - Add Budgie Desktop badge.
 
  -- Doug Torrance <dtorrance@piedmont.edu>  Sat, 26 Mar 2016 13:23:01 -0400
 
