@@ -1,8 +1,8 @@
-unity-greeter-badges (0.4-0ubuntu4) xenial; urgency=medium
+unity-greeter-badges (0.4-0ubuntu4) yakkety; urgency=medium
 
   * debian/control
     - Update my email address.
-    - Bump Standards-Version to 3.9.7.
+    - Bump Standards-Version to 3.9.8.
     - Slight update to Vcs-Git.
   * debian/copyright
     - Add license information for new Budgie Desktop badge.
@@ -12,7 +12,7 @@ unity-greeter-badges (0.4-0ubuntu4) xenial; urgency=medium
   * debian/source/include-binaries
     - Add Budgie Desktop badge.
 
- -- Doug Torrance <dtorrance@piedmont.edu>  Sat, 26 Mar 2016 13:23:01 -0400
+ -- Doug Torrance <dtorrance@piedmont.edu>  Sat, 23 Apr 2016 18:40:40 -0400
 
 unity-greeter-badges (0.4-0ubuntu3) wily; urgency=medium
 
